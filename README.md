@@ -26,15 +26,15 @@ particles.js - Efeito de partículas no fundo
 Netlify - Hospedagem
 
 📁 Estrutura do Projeto
-text
+
 /
 ├── index.html                    # Página principal
 ├── style.css                     # Estilos completos
-├── main.js                        # Lógica de busca e Firebase
-├── capa facebook ml compras e vendas.png  # Imagem de fundo
-└── firebase-config.js            # (Opcional, pode estar no main.js)
+├── main.js                       # Lógica de busca e Firebase
+├── img.png                       # Imagen decorativa
+└── config.js                     # Configurações do Firebase
 🔥 Estrutura do Firebase
-text
+
 Realtime Database
 └── ids
     ├── 102581531_1034
@@ -47,7 +47,8 @@ Realtime Database
     │   └── servidor: "1037"
     └── ...
 🔍 Como funciona a busca
-O sistema o ID no formato id numérico e verifica se essa chave existe no nó ids do Firebase.
+
+O sistema valida o ID numérico realizando uma consulta no nó ids do Firebase para verificar a existência da chave.
 
 Exemplo:
 
@@ -55,12 +56,14 @@ text
 ID digitado: 102581531
 Busca no Firebase: ids/102581531_1034
 Se existir → conta roubada
+````
 🚀 Como usar
-Acesse: geovani-idsdecontasml.netlify.app
 
+Acesse: https://geovani-idsdecontasml.netlify.app
+````
 Digite o ID da conta do Mobile Legends (apenas números)
 
-O sistema busca automaticamente considerando o servidor
+O sistema busca automaticamente e adiciona o número do servidor
 
 Se o ID estiver na base, aparecerá: "102581531 (1034)"
 
@@ -69,6 +72,7 @@ ID	Servidor	Resultado
 102581531	1034	⚠️ Conta na base
 354894230	1026	⚠️ Conta na base
 999999999	9999	✅ Conta não encontrada
+
 ⚠️ Importante
 Este site tem fim educativo e de alerta. A ideia é ajudar a comunidade de Mobile Legends a não cair em golpes ao comprar ou negociar contas.
 
@@ -85,7 +89,8 @@ O projeto está hospedado no Netlify, com deploy automático a cada atualizaçã
 📄 Licença
 MIT © Geovani Rodrigues
 
-Aviso: Projeto independente, sem vínculo com a Moonton (Mobile Legends). Criado para ajudar a comunidade.
+⚠️ Aviso: Projeto independente, sem vínculo com a Moonton (Mobile Legends). Criado para ajudar a comunidade.
+
 
 
 
