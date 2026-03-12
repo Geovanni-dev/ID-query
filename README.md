@@ -1,3 +1,7 @@
+## ⚠️ Nota de Segurança: O histórico de commits deste repositório foi redefinido em 12/03/2026. Esta ação foi necessária para remover dados sensíveis que foram expostos acidentalmente durante testes de deploy no Netlify. O projeto foi reiniciado com um commit órfão para garantir que nenhuma versão anterior com informações confidenciais permanecesse no histórico do Git.
+
+
+
 # 🛡️ IDs de Contas Recuperadas - Mobile Legends
 
 Site para consulta de IDs de contas roubadas no Mobile Legends. Ferramenta de alerta para ajudar jogadores a identificarem possíveis golpes antes de comprar ou negociar uma conta.
@@ -90,6 +94,7 @@ O projeto está hospedado no Netlify, com deploy automático a cada atualizaçã
 MIT © Geovani Rodrigues
 
 ⚠️ Aviso: Projeto independente, sem vínculo com a Moonton (Mobile Legends). Criado para ajudar a comunidade.
+
 
 
 
